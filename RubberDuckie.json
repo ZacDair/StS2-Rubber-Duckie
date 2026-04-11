@@ -3,7 +3,7 @@
   "name": "RubberDuckie",
   "author": "Zac Dair",
   "description": "Plays a squeak when a hit resolves to 0 HP damage.",
-  "version": "v0.0.1",
+  "version": "v0.1.0",
   "has_pck": true,
   "has_dll": true,
   "dependencies": ["BaseLib"],

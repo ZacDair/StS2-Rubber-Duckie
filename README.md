@@ -85,8 +85,10 @@ Install the mod, launch the game, and play normally. If a qualifying attack reso
 * Intended as a lightweight audio / quality-of-life mod
 * Does not intentionally change combat logic or balance
 * Should be low-risk to use alongside many other mods, though conflicts are always possible if another mod patches the same combat or audio flow
+* Tested on StS2 Steam version: v0.103.0
 
 If another mod also alters attack-result handling or impact audio behaviour, load-order or patch interaction issues may occur.
+---
 
 ### Current behaviour notes
 

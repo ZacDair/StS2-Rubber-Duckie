@@ -13,13 +13,11 @@ public static class DuckAudio
 
         if (_squeak is null)
         {
-            GD.PrintErr($"[RubberDuckie] Failed to load squeak: {SqueakPath}");
             return;
         }
 
         if (Engine.GetMainLoop() is not SceneTree tree || tree.Root is null)
         {
-            GD.PrintErr("[RubberDuckie] No SceneTree root available");
             return;
         }
 

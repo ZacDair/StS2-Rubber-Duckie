@@ -25,10 +25,7 @@ public static class ZeroDamageAttackPatch
     {
         if (!ShouldSqueak(result))
             return;
-
-        GD.Print(
-            $"[RubberDuckie] zero-damage hit | blocked={result.BlockedDamage} unblocked={result.UnblockedDamage} fullyBlocked={result.WasFullyBlocked}");
-
+        
         DuckAudio.PlaySqueak();
     }
 

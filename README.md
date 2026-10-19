@@ -89,7 +89,9 @@ Install the mod, launch the game, and play normally. If a qualifying attack reso
 * Intended as a lightweight audio / quality-of-life mod
 * Does not intentionally change combat logic or balance
 * Should be low-risk to use alongside many other mods, though conflicts are always possible if another mod patches the same combat or audio flow
-* Automated combat regression tests use StS2 Steam version **v0.107.1**, Megadot **4.5.1.m.9**, and **.NET 9**
+* Verified in live combat on Steam **v0.107.1**, the latest main-branch release as of **2026-10-19**; later beta builds have not been tested
+* Live checks confirmed that Osty interception and ordinary block stay silent, while a genuinely zero-damage attack plays one squeak, including during a normal enemy turn
+* All 18 automated combat regressions pass using the same game version, Megadot **4.5.1.m.9**, and **.NET 9**; the exported sound pack also passes a playback check
 
 If another mod also alters attack-result handling or impact audio behaviour, load-order or patch interaction issues may occur.
 ---

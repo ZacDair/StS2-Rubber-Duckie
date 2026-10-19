@@ -22,6 +22,12 @@ Versioning follows [Semantic Versioning](https://semver.org/).
 * Release archives now contain the standard `RubberDuckie` install folder
 * Removed unused template build dependencies and restricted the resource pack to the mod's assets
 
+### Tested
+
+* Confirmed compatibility with Steam **v0.107.1**, the latest main-branch release as of **2026-10-19**; later beta builds have not been tested
+* Verified Osty interception, ordinary block, and true zero-damage attacks in the visible native game, including a normal enemy turn
+* Passed all 18 automated combat regressions and the exported sound-pack playback check
+
 \---
 
 ## \[0.1.0] — 2026-04-11
